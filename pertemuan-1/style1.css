@@ -1,0 +1,76 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+}/*HEADING*/
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 240%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px; /*jarak antara kata*/
+    letter-spacing: 1px; /*jarak antara abjad*/
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h2:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color:#e67E22;
+    width: 100PX;
+    margin: 0 auto; /*membuat posisi tengah pada objek*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-block;
+    border: 10px 30px;
+    text-decoration: none;
+    border: 1px solid:#e67E22;
+    padding: 10px 30px;
+    border-radius: 200px; 
+    margin-right: 20px;
+}
+
+.btn-full{
+    border: 1px solid #fff;
+    background-color: #e67E22;
+    color: rgb(230,38,38);
+
+}
+
+.btn-full:hover{
+    background-color:#cf6d17;
+    transition: 0,3s;
+    background-color:#cf6d17;
+    color: #FFF;
+
+}
+
+.btn-ghost{
+    color:#e67E22;
+}
+
+.btn-ghost:hover{
+    background-color:#e67E22;
+    transition: 0.3s;
+    color: #FFF;
+}
